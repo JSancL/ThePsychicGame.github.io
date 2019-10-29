@@ -1,23 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head>
-	<meta charset="utf-8">
-	<title>Psychic Game</title>
-</head>
-<body>
-
-	<div id="game">
-		<h1> The Psychic Game </h1>
-		<p>Guess what letter I'm thinking of!</p>
-		<p>Wins:</p>
-		<p>Losses:</p>
-		<p>Guesses Left:</p>
-		<p>Your Guesses so far:</p>
-	</div>
-
-	<script type="text/javascript">
-		
-		 var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",];
+var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",];
 
 		 var wins = 0;
 		 var losses = 0;
@@ -64,16 +45,3 @@
 			"<p>Your Guesses so far: " + guessChoices.join(", ") + "</p>";
 
 			document.querySelector("#game").innerHTML = html;
-
-			
-			}
-		};
-
-	</script>
-
-</body>
-<<<<<<< HEAD
-</html>
-=======
-</html>
->>>>>>> ce7bdecc89474b76273480b86d832d8b117efc95
